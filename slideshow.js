@@ -16,7 +16,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fadeOut() {
-    document.getElementById("fade").src = imgList[index++];
+    index++;
     while (index >= imgList.length) index -= imgList.length;
     document.getElementById("static").src = imgList[index];
+    setTimeout(() => {
+        document.getElementById("fade").src = imgList[index];
+    }, 2000);
 }

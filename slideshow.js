@@ -1,9 +1,10 @@
 var imgList = [
-    "gallery\\Badlands_Irri.png",
-    "gallery\\CoralCaves_Fishnoid.png",
-    "gallery\\Salination_Irri.png",
-    "gallery\\StormyCoast_NOTOCORDA.png",
-    "gallery\\TorridDesert_headintheklouds.png",
+    "gallery\\WARF_AetherRidge.png",
+	"gallery\\WRFA_CoralCaves_Fishnoid.png",
+    "gallery\\WARB_Salination_Irri.png",
+    "gallery\\WSKC_StormyCoast_NOTOCORDA.png",
+    "gallery\\WTDA_TorridDesert_headintheklouds.png",
+	"gallery\\WBLA_Badlands_Irri.png",
 
 ];
 var index = 0;

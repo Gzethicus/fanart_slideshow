@@ -1,5 +1,4 @@
 var imgList = [
-    "gallery\\WARF_AetherRidge.png",
 	"gallery\\WRFA_CoralCaves_Fishnoid.png",
     "gallery\\WARB_Salination_Irri.png",
     "gallery\\WSKC_StormyCoast_NOTOCORDA.png",

@@ -4,10 +4,17 @@
         <meta name="robots" content="noindex">
         <script src="slideshow.js"></script>
         <style>
-            img {
+            div {
                 position: absolute;
                 top: 0;
-                left: 0;
+                left: 50%;
+                height: 100%;
+            }
+
+            img {
+                position: relative;
+                top: 0;
+                left: -50%;
                 height: 100%;
             }
 
@@ -24,10 +31,28 @@
                     opacity: 0;
                 }
             }
+            
+            @keyframes fade-in {
+                0% {
+                    opacity: 0;
+                }
+                
+                20% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
         </style>
     </head>
     <body>
-        <img id="static"/>
-        <img id="fade" style="animation:8s fade infinite"/>
+        <div>
+            <img id="static" style="animation:8s fade-in infinite"/>
+        </div>
+        <div>
+            <img id="fade" style="animation:8s fade infinite"/>
+        </div>
     </body>
 </html>

@@ -3,56 +3,38 @@
     <head>
         <meta name="robots" content="noindex">
         <script src="slideshow.js"></script>
-        <style>
-            div {
-                position: absolute;
-                top: 0;
-                left: 50%;
-                height: 100%;
-            }
-
-            img {
-                position: relative;
-                top: 0;
-                left: -50%;
-                height: 100%;
-            }
-
-            @keyframes fade {
-                0% {
-                    opacity: 1;
-                }
-                
-                30% {
-                    opacity: 0;
-                }
-
-                100% {
-                    opacity: 0;
-                }
-            }
-            
-            @keyframes fade-in {
-                0% {
-                    opacity: 0;
-                }
-                
-                30% {
-                    opacity: 1;
-                }
-
-                100% {
-                    opacity: 1;
-                }
-            }
-        </style>
+        <link href="styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <div>
-            <img id="static" style="animation:5s fade-in infinite"/>
+        <div id="main">
+            <img id="static"/>
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="Weaver" x1="0" x2="0" y1="0" y2="1">
+                        <stop offset="0%" class="text-gradient-start"/>
+                        <stop offset="100%" class="text-gradient-end"/>
+                    </linearGradient>
+                </defs>
+                <text
+                    id="static-label"
+                    x="50%"
+                    y="85%"/>
+            </svg>
         </div>
         <div>
-            <img id="fade" style="animation:5s fade infinite"/>
+            <img id="fade"/>
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="Weaver" x1="0" x2="0" y1="0" y2="1">
+                        <stop offset="0%" class="text-gradient-start"/>
+                        <stop offset="100%" class="text-gradient-end"/>
+                    </linearGradient>
+                </defs>
+                <text
+                    id="fade-label"
+                    x="50%"
+                    y="85%"/>
+            </svg>
         </div>
     </body>
 </html>

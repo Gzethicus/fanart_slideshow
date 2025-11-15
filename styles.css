@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Rodondo";
+    src: url(Rodondo.otf) format("OpenType");
+}
+
+:root {
+    font: bold var(--font-size) "Rodondo";
+    --font-size: 70px;
+    overflow: hidden;
+}
+
+#main {
+    animation: 5s fade-in infinite;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    animation: 5s fade-out infinite;
+}
+
+div > * {
+    position: relative;
+    left: -50%;
+}
+
+img {
+    height: 100%;
+    max-height: calc(100% - var(--font-size) * 0.9);
+    top: 0;
+}
+
+svg {
+    width: 100%;
+    height: calc(var(--font-size) * 0.9);
+}
+
+text {
+    paint-order: stroke;
+    text-anchor: middle;
+    fill: url(#Weaver);
+    stroke: #000a54;
+    stroke-width: 15;
+    stroke-linejoin: round;
+}
+
+.text-gradient-start {
+    stop-color: #dcaa14;
+}
+
+.text-gradient-end {
+    stop-color: #a63b2d;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

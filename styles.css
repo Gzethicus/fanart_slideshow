@@ -10,7 +10,7 @@
 }
 
 #main {
-    animation: 5s fade-in infinite;
+    animation: 5s ease-out fade-in infinite;
 }
 
 div {
@@ -20,7 +20,7 @@ div {
     top: 0;
     left: 50%;
     height: 100%;
-    animation: 5s fade-out infinite;
+    animation: 5s ease-in fade-out infinite;
 }
 
 div > * {

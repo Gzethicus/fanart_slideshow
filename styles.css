@@ -6,6 +6,7 @@
 :root {
     font: bold var(--font-size) "Rodondo";
     --font-size: 70px;
+    --font-overflow: calc(var(--font-size) * 0.6);
     overflow: hidden;
 }
 
@@ -19,7 +20,7 @@ div {
     position: absolute;
     top: 0;
     left: 50%;
-    height: 100%;
+    height: calc(100% + var(--font-size));
     animation: 5s ease-in fade-out infinite;
 }
 
@@ -30,13 +31,15 @@ div > * {
 
 img {
     height: 100%;
-    max-height: calc(100% - var(--font-size) * 0.9);
+    max-height: calc(100% - var(--font-size) - var(--font-overflow));
     top: 0;
 }
 
 svg {
+    position: relative;
+    top: calc(var(--font-overflow) - var(--font-size));
     width: 100%;
-    height: calc(var(--font-size) * 0.9);
+    height: var(--font-size);
 }
 
 text {

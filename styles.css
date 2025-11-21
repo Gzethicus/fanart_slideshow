@@ -6,7 +6,7 @@
 :root {
     font: bold var(--font-size) "Rodondo";
     --font-size: 70px;
-    --font-overflow: calc(var(--font-size) * 0.6);
+    --font-overflow: calc(var(--font-size) * 0.58);
     overflow: hidden;
 }
 

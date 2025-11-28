@@ -1,5 +1,6 @@
 var imgList = [
     {img:"gallery\\BirbSigmaSketch.png",                    comment:"birb"},
+	{img:"gallery\\WARF_AetherRidge_Cas.png",				comment:"Cas"},
 	{img:"gallery\\WBLA_Badlands_Irri.png",                 comment:"Irri"},
 	{img:"gallery\\WRFA_CoralCaves_Fishnoid.png",           comment:"Fishnoid"},
     {img:"gallery\\WARB_Salination_Irri.png",               comment:"Irri"},

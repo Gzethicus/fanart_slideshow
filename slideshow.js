@@ -1,5 +1,4 @@
 var imgList = [
-    {img:"gallery\\BirbSigmaSketch.png",                    comment:"birb"},
 	{img:"gallery\\WSKD_ShroudedStacks_Sparkbreeze.png",    comment:"Sparkbreeze"},
 	{img:"gallery\\WPTA_SignalSpires_YSHM.png", 			comment:"YSHM"},
 	{img:"gallery\\WRFB_TurbulentPump_Astroik.png", 		comment:"Astroik"},

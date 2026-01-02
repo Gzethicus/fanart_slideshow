@@ -1,4 +1,5 @@
 var imgList = [
+	{img:"gallery\\WORA_OuterRim_Opsiian.png",    			comment:"Opsiian"},
 	{img:"gallery\\WSKD_ShroudedStacks_Sparkbreeze.png",    comment:"Sparkbreeze"},
 	{img:"gallery\\WSKA_TorrentialRailways_Alkali&Irri.png",comment:"Alkali & Irri"},
 	{img:"gallery\\WPTA_SignalSpires_YSHM.png", 			comment:"YSHM"},

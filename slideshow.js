@@ -1,4 +1,5 @@
 var imgList = [
+	{img:"gallery\\WSKB_SunbakedAlley_Cas.png",				comment:"Cas"},
 	{img:"gallery\\WARA_ShatteredTerrace_Astroik.png",		comment:"Astroik"},
 	{img:"gallery\\WARD_ColdStorage_Irri.png",              comment:"Irri"},
 	{img:"gallery\\WORA_OuterRim_Opsiian.png",    			comment:"Opsiian"},

@@ -1,4 +1,7 @@
 var imgList = [
+	{img:"gallery\\WAUA_AncientUrban_Ravenmind.png",		comment:"Ravenmind"},
+	{img:"gallery\\WRRA_RustedWrecks_Ravenmind.png",		comment:"Ravenmind"},
+	{img:"gallery\\WSSR_UnfortunateEvolution_Ravenmind.png",comment:"Ravenmind"},
 	{img:"gallery\\WSKB_SunbakedAlley_Cas.png",				comment:"Cas"},
 	{img:"gallery\\WARA_ShatteredTerrace_Astroik.png",		comment:"Astroik"},
 	{img:"gallery\\WARD_ColdStorage_Irri.png",              comment:"Irri"},

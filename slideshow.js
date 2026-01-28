@@ -1,4 +1,6 @@
 var imgList = [
+	{img:"gallery\\WARC_FetidGlen_YSHM.png", 				comment:"YSHM"},
+	{img:"gallery\\WDSR_DecayingTunnels_Ravenmind.png",		comment:"Ravenmind"},
 	{img:"gallery\\WHIR_CorruptedFactories_Sparkbreeze.png",comment:"Sparkbreeze"},
 	{img:"gallery\\WARG_TheSurface_AngleSmudge.png",		comment:"AngleSmudge"},
 	{img:"gallery\\WAUA_AncientUrban_Ravenmind.png",		comment:"Ravenmind"},

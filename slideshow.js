@@ -1,4 +1,5 @@
 var imgList = [
+	{img:"gallery\\WMPA_MigrationPath_Irri.png",            comment:"Irri"},
 	{img:"gallery\\WARC_FetidGlen_YSHM.png", 				comment:"YSHM"},
 	{img:"gallery\\WDSR_DecayingTunnels_Ravenmind.png",		comment:"Ravenmind"},
 	{img:"gallery\\WHIR_CorruptedFactories_Sparkbreeze.png",comment:"Sparkbreeze"},

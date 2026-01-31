@@ -1,4 +1,7 @@
 var imgList = [
+	{img:"gallery\\WPGA_PillarGrove_WillowWisperr.png",     comment:"WillowWisperr"},
+	{img:"gallery\\WTDB_DesolateTract_YellowGhost.png",    	comment:"YellowGhost"},
+	{img:"gallery\\WGWR_InfestedWastes_Opsiian.png",    	comment:"Opsiian"},
 	{img:"gallery\\WMPA_MigrationPath_Irri.png",            comment:"Irri"},
 	{img:"gallery\\WARC_FetidGlen_YSHM.png", 				comment:"YSHM"},
 	{img:"gallery\\WDSR_DecayingTunnels_Ravenmind.png",		comment:"Ravenmind"},

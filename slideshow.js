@@ -1,5 +1,7 @@
-var fixedOrderCount = 0;
+var fixedOrderCount = 3;
 var imgList = [
+	{img:"gallery\\WVWA_VerdantWaterways_KaliDoesArt.png",		comment:"KaliDoesArt"},
+	{img:"gallery\\WVWB_FracturedGateways_Sigma&YSHM.png",		comment:"Sigma & YSHM"},
 	{img:"gallery\\WSUR_CrumblingFringes_RiverTheGremlin.png",	comment:"RiverTheGremlin"},
 	{img:"gallery\\WPGA_PillarGrove_WillowWisperr.png",     	comment:"WillowWisperr"},
 	{img:"gallery\\WTDB_DesolateTract_YellowGhost.png",    		comment:"YellowGhost"},

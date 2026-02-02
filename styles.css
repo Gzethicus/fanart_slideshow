@@ -11,7 +11,7 @@
 }
 
 #main {
-    animation: 5s ease-out fade-in infinite;
+    animation: 8s ease-out fade-in infinite;
 }
 
 div {
@@ -21,7 +21,7 @@ div {
     top: 0;
     left: 50%;
     height: calc(100% + var(--font-size));
-    animation: 5s ease-in fade-out infinite;
+    animation: 8s ease-in fade-out infinite;
 }
 
 div > * {
@@ -64,7 +64,7 @@ text {
         opacity: 1;
     }
     
-    30% {
+    20% {
         opacity: 0;
     }
 
@@ -78,7 +78,7 @@ text {
         opacity: 0;
     }
     
-    30% {
+    20% {
         opacity: 1;
     }
 

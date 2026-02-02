@@ -1,3 +1,4 @@
+var fixedOrderCount = 0;
 var imgList = [
 	{img:"gallery\\WSUR_CrumblingFringes_RiverTheGremlin.png",	comment:"RiverTheGremlin"},
 	{img:"gallery\\WPGA_PillarGrove_WillowWisperr.png",     	comment:"WillowWisperr"},
@@ -27,10 +28,19 @@ var imgList = [
     {img:"gallery\\WSKC_StormyCoast_NOTOCORDA.png",         	comment:"NOTOCORDA"},
     {img:"gallery\\WTDA_TorridDesert_headintheklouds.png",  	comment:"headintheklouds"},
 ];
-var index = 0;
+var index = -1;
+
+var shuffled = []
 
 document.addEventListener("DOMContentLoaded", (e) => {
-    index = Math.floor(Math.random() * imgList.length);
+    var currentIndex = imgList.length;
+    while (currentIndex > fixedOrderCount) {
+        var randomIndex = fixedOrderCount + Math.floor(Math.random() * (currentIndex - fixedOrderCount));
+        currentIndex--;
+
+        [imgList[currentIndex], imgList[randomIndex]] = [
+        imgList[randomIndex], imgList[currentIndex]];
+    }
 
     document.getElementById("main").addEventListener("animationiteration", fadeOut);
     fadeOut();
@@ -44,5 +54,5 @@ function fadeOut() {
     setTimeout(() => {
         document.getElementById("fade").src = imgList[index].img;
         document.getElementById("fade-label").innerHTML = imgList[index].comment;
-    }, 2000);
+    }, 4000);
 }
